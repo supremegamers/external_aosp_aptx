@@ -6,7 +6,7 @@ https://android-review.googlesource.com/c/platform/packages/modules/Bluetooth/+/
 
 Instead of backporting the commits from the patchset to older Android, it is easier to just pull the encoders out and then let the copy function from a2dp stack to do it's job.
 
-To compile, add this in your device tree's `device.mk`
+To compile, clone this repo in `external/aosp_aptx` and add this in your device tree's `device.mk`
 
 ```
 PRODUCT_PACKAGES += \
